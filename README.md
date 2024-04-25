@@ -6,10 +6,13 @@ If you want to use our settings install DNSmasq and input the following commands
 git clone https://github.com/evilTachyMeter/catalystDHCP
 cd catylistDHCP
 cp dnsmasq.conf /etc/
-cp dnsmasq.d /etc/
-cd .. rm -rf catylistDHCP
+cp -r dnsmasq.d /etc/
 ```
+make sure to read the files and to edit ip addresses and internet interfaces
 
-### continue below for more documentation.
+populate the hosts file with the ip addresses and hosts of static ip servers
 
-## 
+the following link is helpful for the setup, even if it is meant for arch linux, it still applies to
+any linux distro
+
+[https://wiki.archlinux.org/title/dnsmasq]
