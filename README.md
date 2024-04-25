@@ -16,3 +16,5 @@ the following link is helpful for the setup, even if it is meant for arch linux,
 any linux distro
 
 [https://wiki.archlinux.org/title/dnsmasq]
+
+# **THIS CONFIGURATION WILL NOT WORK UNLESS YOU EDIT THE IP ADDRESSES AND INTERFACES**
